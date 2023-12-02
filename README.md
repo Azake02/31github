@@ -13,3 +13,26 @@ Today I've installed terminal
 # day3
 
 I've uploaded code
+
+# day4
+
+I'm solving some tasks in Leetcode and here is my code:
+class Solution {
+public boolean isPalindrome(int x) {
+int temp=0;
+int reverse =0;
+int num2 = x;
+if(x>=0){
+while(x>0){
+temp=x%10;
+reverse = reverse\*10+temp;
+x=x/10;
+temp=0;
+}
+if(reverse==num2){
+return true;
+}
+}
+return false;
+}
+}
