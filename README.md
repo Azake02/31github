@@ -32,6 +32,10 @@ temp=0;
 if(reverse==num2){
 return true;
 }
+
+# day6
+I've started implement my automation framework and I will improve it everyday
+
 }
 return false;
 }
