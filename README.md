@@ -36,6 +36,9 @@ return true;
 # day6
 I've started implement my automation framework and I will improve it everyday
 
+
+# day7
+It throws an exception and I am trying to fix it. As soon I will fix it, will redeploy
 }
 return false;
 }
