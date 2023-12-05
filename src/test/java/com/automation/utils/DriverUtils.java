@@ -7,12 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import java.time.Duration;
 
 public class DriverUtils {
-    ChromeDriverService service = new ChromeDriverService.Builder().build();
-    WebDriver driver = new ChromeDriver(service);
+    static WebDriver driver;
 
     public static void createDriver() {
-         WebDriver driver = new ChromeDriver();
-        driver.get(ConfigProperties.getProperty("application.url"));
+        driver = new ChromeDriver();
+        //driver.get(ConfigProperties.getProperty("application.url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }

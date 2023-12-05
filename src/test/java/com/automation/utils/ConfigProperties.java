@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.util.Properties;
 
 public class ConfigProperties {
-    static Properties properties = new Properties();
+    static Properties properties;
 
     public static void initProperties(){
         try{
@@ -14,11 +14,13 @@ public class ConfigProperties {
         } catch (Exception e){
 
         }
-
     }
 
     public static String getProperty(String key){
         return properties.getProperty(key);
+    }
+    public static void setProperty(String key, String value) {
+        properties.setProperty(key, value);
     }
 }
 
