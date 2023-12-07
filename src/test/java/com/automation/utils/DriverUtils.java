@@ -11,7 +11,7 @@ public class DriverUtils {
 
     public static void createDriver() {
         driver = new ChromeDriver();
-        //driver.get(ConfigProperties.getProperty("application.url"));
+        driver.get(ConfigProperties.getProperty("application.url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
