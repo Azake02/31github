@@ -66,4 +66,14 @@ class Solution {
 }
 
 # day9 I've pushed my framework and now I will solve Leetcode task. Also I've started reading the book "Грокаем алгоритмы"
-
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int j=0;
+        for(int i=m;i<nums1.length;i++){
+             nums1[i]=nums2[j];
+                 j++;
+        }
+        Arrays.sort(nums1);
+    }
+}
+Merge sorted array
