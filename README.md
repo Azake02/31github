@@ -71,9 +71,28 @@ class Solution {
         int j=0;
         for(int i=m;i<nums1.length;i++){
              nums1[i]=nums2[j];
-                 j++;
+
+# day10 I'm gonna push my framework and 1 task from Leetcode
+
+             class Solution {
+    public int countCharacters(String[] words, String chars) {
+        int k=0;
+        for(int i=0;i<words.length;i++){
+            char ch[]=words[i].toCharArray(),mh[]=chars.toCharArray();
+            int v=0;
+            for(int l=0;l<words[i].length();l++)
+            {
+            for(int j=0;j<chars.length();j++){
+              if(ch[l]==mh[j]){
+                  mh[j]='0';
+              v++;
+                break;
+              }
+            }
+            }
+            if(v==words[i].length())
+            k+=words[i].length();
         }
-        Arrays.sort(nums1);
+        return k;
     }
 }
-Merge sorted array
