@@ -122,3 +122,6 @@ class Solution {
 # new leetcode is added-done
 
 # 12day added I'm gonna add a leetcode java file, and learnt about apis today
+
+# 13day Today I'll be concentrate on Leetcode tasks and one algoritm. Also will do some changes on my automation framework
+
