@@ -120,3 +120,5 @@ class Solution {
 }
 
 # new leetcode is added-done
+
+# 12day added I'm gonna add a leetcode java file
