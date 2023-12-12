@@ -128,4 +128,5 @@ class Solution {
 # 13day I'll be concentrate on my SQL skills and one more leetcode
 
 
+# 14day Made some changes on framework
 
