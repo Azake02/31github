@@ -174,3 +174,5 @@ class Solution {
 # day18 leetcode task
 
 # day19 leetcode task
+
+# day20 leetcode task
