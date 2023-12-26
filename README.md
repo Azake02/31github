@@ -192,3 +192,4 @@ class Solution {
 # day27 leetcode task
 
 # day28 leetcode task
+Also working on my automation
