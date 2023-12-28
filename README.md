@@ -227,3 +227,5 @@ public class Leetcode29 {
 }
 
 Had some problems with pushing it. Trying to resolve
+
+# day30 leetcode task
